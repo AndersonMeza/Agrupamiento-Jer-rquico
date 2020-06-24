@@ -82,9 +82,6 @@ class Pruebas(unittest.TestCase):
 if __name__ == "__main__":  
     output_file('Graficado.html')    
     fig=figure()
-
-
-
     print('Especifique su mapa')    
     rango=[]
     num_dimensiones=int(input('Cuantas dimensiones tendrá cada elemento: '))
